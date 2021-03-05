@@ -16,8 +16,7 @@ public class Direccion {
         this.estado = estado;
         this.cp = cp;
     }
-    
-    
+
     public String getCalle() {
         return calle;
     }
@@ -70,5 +69,11 @@ public class Direccion {
     public String toString() {
         return "Direccion{" + "calle=" + calle + ", numero=" + numero + ", colonia=" + colonia + ", delegacion=" + delegacion + ", estado=" + estado + ", cp=" + cp + '}';
     }
+    
+    
+    
 
+  
+    
+    
 }
