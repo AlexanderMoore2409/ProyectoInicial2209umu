@@ -6,6 +6,7 @@
 package herenciamultiple2209;
 
 import ico.fes.academia.ProfesorDeProgramacion;
+import ico.fes.iu.MiVentana;
 
 /**
  *
@@ -25,7 +26,9 @@ public class HerenciaMultiple2209 {
         profe.dictarClase();
         profe.programar();
         profe.probarCodigo();
-        System.out.println(profe);    
+        System.out.println(profe); 
+        
+       MiVentana win1= new MiVentana();
     }
     
 }
